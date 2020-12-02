@@ -81,14 +81,6 @@ train network on `OTS` dataset
  python main.py --net='ffa' --crop --crop_size=240 --blocks=19 --gps=3 --bs=2 --lr=0.0001 --trainset='ots_train' --testset='ots_test' --steps=1000000 --eval_step=5000
  ```
 
-
-#### Test
-
-Trained_models are available at baidudrive: https://pan.baidu.com/s/1-pgSXN6-NXLzmTp21L_qIg with code: `4gat`
-
-or google drive: https://drive.google.com/drive/folders/19_lSUPrpLDZl9AyewhHBsHidZEpTMIV5?usp=sharing
-*Put  models in the `net/trained_models/`folder.*
-
 *Put your images in `net/test_imgs/`*
 
  ```shell
