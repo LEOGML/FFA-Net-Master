@@ -50,17 +50,6 @@ Dataset website:[RESIDE](https://sites.google.com/view/reside-dehaze-datasets/) 
 </details>
 
 
-### Metrics update
-|Methods|Indoor(PSNR/SSIM)|Outdoor(PSNR/SSIM)|
-|-|-|-|
-|DCP|16.62/0.8179|19.13/0.8148|
-|AOD-Net|19.06/0.8504|20.29/0.8765|
-|DehazeNet|21.14/0.8472|22.46/0.8514|
-|GFN|22.30/0.8800|21.55/0.8444|
-|GCANet|30.23/0.9800|-/-|
-|Ours|36.39/0.9886|33.57/0.9840|
-### Usage
-
 #### Train
 
 *Remove annotation from [main.py](net/main.py) if you want to use `tensorboard` or view `intermediate predictions`*
@@ -85,6 +74,3 @@ train network on `OTS` dataset
 
  ```shell
  python test.py --task='its or ots' --test_imgs='test_imgs'
- 
-</div>
-
