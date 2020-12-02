@@ -1,13 +1,7 @@
-##  [FFA-Net: Feature Fusion Attention Network for Single Image Dehazing](https://arxiv.org/abs/1911.07559) (AAAI 2020)
+##  [FFA-Net: Feature Fusion Attention Network for Single Image Dehazing] (AAAI 2020)
  Official implementation.
 
----
-
-by Xu Qin, Zhilin Wang et al.    Peking University and Beijing University of Aeronautics & Astronautics.
-
 ### Citation
-
-To be determined.
 
 ### Dependencies and Installation
 
@@ -99,18 +93,6 @@ or google drive: https://drive.google.com/drive/folders/19_lSUPrpLDZl9AyewhHBsHi
 
  ```shell
  python test.py --task='its or ots' --test_imgs='test_imgs'
-```
-#### Samples
-
-<p align='center'>
-<img src="fig/1400_2.png" height="306px" width='413px'> 
-<img src='fig/1400_2_FFA.png' height="306px" width='413px' >
-
-</div>
-
-<p align='center'>
-<img src='fig/0099_0.9_0.16.jpg' height="606px" width='413px'> 
-<img src='fig/0099_0_FFA.png' height="606px" width='413px' >
-
+ 
 </div>
 
